@@ -1,0 +1,103 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #fff;
+}
+.logo img {
+    width: 50px;
+    height: 50px;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    font-size: 12px;
+    margin-left: 80px;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+}
+.search {
+    width: 60%; 
+}
+
+.search input {
+    width: 60%; 
+    font-size: 16px; 
+    padding: 10px 15px;
+    box-sizing: border-box; 
+}
+
+.search input::placeholder {
+    font-size: 16px; 
+}
+.icons {
+    display: flex;
+    gap: 20px; 
+}
+
+.icons a {
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    text-decoration: none; 
+    color: inherit; 
+}
+
+.icons a i {
+    font-size: 24px; 
+    margin-bottom: 5px;
+}
+.flat{
+    background-image: url('https://assets.ajio.com/cms/AJIO/WEB/M-21072024-TrendsSIS-fallwinter24strip.jpg');
+    height: 200px;
+    width: 1400px;
+    margin-top: 20px;
+    margin-left: 5px;
+}
+
+.banner{
+    background-image: url('https://assets.ajio.com/medias/sys_master/images/images/h20/hdb/63666038702110/M-UHP-topbanner-1024x672-NowEnds20thNov.jpg');
+    background-size: cover;
+    height: 1000px;
+    width: 1400px;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+.product,.product1,.product2{
+    width: 50%;
+    height: auto;
+    margin-top: 5px;
+    display: flex;
+    position: relative;
+}
+.banner2,.banner3{
+    background-size: cover;
+    height: 100px;
+    width: 1250px;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+.exclusive,.exclusive1,.exclusive2,.exclusive3{
+    width: 50%;
+    height: auto;
+    display: flex;
+}
+.footware,.footware1,.footware2,.footware3{
+    width: 50%;
+    height: auto;
+    display: flex;
+}
+.ajiofootware{
+    background-size: cover;
+    height: 210px;
+    width: 1250px;
+    margin-top: 5px;
+    margin-left: 5px;
+}
